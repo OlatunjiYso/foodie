@@ -131,7 +131,7 @@ h2:after {
 
 
 
-/* ---------Header--------------- */
+/* ---------SECTION Header--------------- */
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/hero.jpg);
   background-attachment: fixed;
@@ -183,7 +183,7 @@ header {
 }
 
 
-/* ---Meals -----*/
+/* --- SECTION Meals -----*/
 .section-meals {
   padding: 0;
 }
@@ -215,7 +215,7 @@ header {
   transform: scale(1.05);
 }
 
-/* -------How it works Steps --------*/
+/* -------  Section STEPS --------*/
 .section-steps {
    background-color: rgb(245, 245, 245);
 }
@@ -261,7 +261,7 @@ header {
 }
 
 
-/* ---  CITIES --- */
+/* ---  SECTION CITIES --- */
 .box img {
   width: 100%;
   height: auto;
@@ -286,7 +286,7 @@ a:active {
   border-bottom: 1px solid transparent;
 }
 
-/*---- Testimonials ------*/
+/*---- Section Testimonials ------*/
 .section-testimonials {
   background-image: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.808)), url(images/back-customers.jpg);
   background-size: cover;
@@ -320,7 +320,46 @@ cite img {
 
 
 
-
-
-
-
+/*----- Section Plans  -----*/
+.section-plans {
+  background-color: rgb(245, 245, 245);
+}
+.plan-box {
+  background-color: #fff;
+  border-radius: 5px;
+  width: 90%;
+  margin-left: 5px;
+  box-shadow: 0 2px 3px rgb(226, 226, 226);
+}
+.plan-box div {
+  padding:15px;
+  border-bottom: 1px solid rgb(231, 230, 230)
+}
+.plan-box div:first-child {
+  background-color: rgb(250, 250, 250);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.plan-box div:last-child {
+  text-align: center;
+  border: 0;
+}
+.price-plan {
+  font-size: 300%;
+  margin-bottom: 15px;
+  font-weight: 10;
+  color: #e67e22;
+}
+.price-plan span {
+font-size: 30%;
+font-weight: 300;
+}
+.price-plan-meal {
+  font-size: 80%;
+}
+.plan-box ul {
+  list-style: none;
+}
+.plan-box ul li {
+  padding: 5px 0;
+}
