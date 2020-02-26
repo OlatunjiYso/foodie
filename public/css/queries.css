@@ -1,0 +1,168 @@
+/* ---- Tablets  ------*/
+@media only screen and (max-width: 1200px) {
+  .hero-text-box {
+    width: 100%;
+    padding: 0 2%;
+  }
+}
+
+
+/* ---- Tablets  ------*/
+@media only screen and (max-width: 1023px) {
+  body {
+    font-size: 18px
+  }
+  .row {
+    padding: 0 2%;
+  }
+  section {
+    padding: 60px 0;
+  }
+  .long-copy {
+    width: 80%;
+    margin-left: 10%;
+  }
+  .steps-box {
+    margin-top: 10px;
+  }
+  .steps-box:last-child {
+    margin-top: 10px;
+  }
+  .works-step {
+    margin-bottom: 30px;
+  }
+ .works-step:last-of-type {
+   margin-bottom: 60px;
+ }
+ .icon-small {
+  width: 16px;
+  margin-right: 5px;
+ }
+ .city-feature {
+   font-size: 90%;
+ }
+ .plan-box {
+   margin-left: 0;
+   width: 100%;
+ }
+ .price-plan {
+  font-size: 250%;
+  margin-bottom: 15px;
+  font-weight: 10;
+  color: #e67e22;
+}
+.contact-form {
+  width: 80%;
+}
+}
+
+
+
+
+/*----devices  481px to 768px -------- */
+@media only screen and (max-width: 767px) {
+  body {
+    font-size: 16px;
+  }
+  section {
+    padding: 30px 0;
+  }
+  .row,
+  .hero-text-box {
+    padding: 0 4%;
+  }
+  .col {
+    width: 100%
+  }
+  .main-nav { 
+    display: none; 
+  }
+  cite {
+    font-size: 80%;
+    margin-top: 0;
+    margin-bottom: 30px;
+    width: 80%;
+  }
+  h1 {
+    font-size: 180%;
+  }
+  h2 {
+    font-size: 150%
+  }
+  .long-copy {
+    width: 100%;
+    margin-left: 0;
+  }
+  .steps-box:first-child {
+    padding-right: 0;
+    text-align: center;
+    margin-top: 0;
+  }
+  .works-step div {
+    height: 25px;
+    width: 25px;
+    margin-right: 15px;
+    padding: 2px;
+    font-size: 100%;
+    border: 1px solid #e67e22
+  }
+  .btn-app img {
+    height: 40px;
+  }
+  .works-step {
+    margin-bottom: 20px;
+  }
+  .works-step:last-of-type {
+   margin-bottom: 20px;
+  }
+  .app-screen {
+    width: 30%;
+  }
+  .steps-links {
+    text-align: center;
+    padding-right: 50px;
+  }
+  .row .col:first-child {
+    margin-left: 8.75px;
+  }
+  .plan-box {
+    margin: 10px auto;
+    width: 75%;
+  }
+  .price-plan {
+    font-size: 150%;
+    margin-bottom: 5px;
+  }
+  .price-plan-meal {
+    font-size: 60%;
+  }
+.btn:link,
+.btn:visited,
+input[type=submit] {
+  padding: 4px 10px;
+  font-weight: 60%;
+  font-size: 100%;
+}
+}
+
+
+
+/* -------Small phones from 0 to 480px  ------*/
+@media only screen and (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+  section {
+    padding: 20px 0;
+  }
+  .contact-form {
+    width: 100%;
+  }
+  .btn-app img {
+    height: 30px;
+  }
+  .steps-links {
+    padding-right: 10px;
+  }
+}
+
