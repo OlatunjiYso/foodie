@@ -11,6 +11,7 @@ html {
   font-size: 20px;
   font-weight: 300;
   text-rendering: optimizeLegibility;
+  overflow-x: hidden;
 }
 .clearfix { zoom: 1;}
 .clearfix:after {
@@ -96,7 +97,9 @@ h2:after {
 }
 
 /*------- Buttons Buttons-------*/
-.btn:link, .btn:visited {
+.btn:link,
+.btn:visited,
+input[type=submit] {
   display: inline-block;
   padding: 10px 30px;
   font-weight: 300;
@@ -106,7 +109,8 @@ h2:after {
   margin-right: 15px;
 }
 .btn-full:link,
-.btn-full:visited  {
+.btn-full:visited,
+input[type=submit]  {
   border: 1px solid #e67e22;
   background-color: #e67e22;
   color: #fff;
@@ -117,11 +121,13 @@ h2:after {
   color: #e67e22;
 }
 .btn:hover,
-.btn:active {
-  background-color: #cf6d17;
+.btn:active,
+input[type=submit]:hover,
+input[type=submit]:active  {
+background-color: #cf6d17;
 }
 .btn-full:hover,
-.btn-full:active  {
+.btn-full:active {
   border: 1px solid #e67e22;
 }
 .btn-ghost:hover,
@@ -362,4 +368,94 @@ font-weight: 300;
 }
 .plan-box ul li {
   padding: 5px 0;
+}
+
+/* --- SECTION FORM ----*/
+.contact-form {
+  width: 60%;
+  margin: 0 auto;
+}
+input[type=text],
+input[type=email],
+select,
+textarea {
+  width: 100%;
+  padding: 7px;
+  border-radius: 3px;
+  border: 1px solid rgb(223, 223, 223)
+}
+textarea {
+  height: 100px;
+}
+input[type=checkbox] {
+  margin: 10px 5px 10px 0;
+}
+*:focus {
+  outline: none;
+}
+
+
+/* ----------- FOOTER -----------*/
+
+footer {
+  background-color: rgb(32, 32, 32);
+  padding:40px;
+}
+footer p {
+  margin-top: 10px;
+  text-align: center;
+  color: rgb(133, 133, 133);
+  font-size: 70%;
+}
+.footer-nav {
+  list-style: none;
+  float: left;
+}
+.social-links {
+  list-style: none;
+  float: right;
+}
+.footer-nav li,
+.social-links li {
+  font-size: 80%;
+  display: inline-block;
+  margin-right: 20px;
+}
+.social-links li:last-child {
+  margin-right: 0;
+}
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited {
+  text-decoration: none;
+  border: 0;
+  color: rgb(122, 122, 122);
+  transition: color 0.4s;
+}
+.footer-nav li a:hover,
+.footer-nav li a:active {
+  color: rgb(192, 192, 192);
+}
+.social-links li a:link,
+.social-links li a:visited {
+  font-size: 150%;
+}
+.logo-twitter,
+.logo-facebook,
+.logo-whatsapp,
+.logo-instagram{
+  transition: color 0.5s;
+}
+.logo-twitter:hover {
+  color: #1da1f2;
+}
+.logo-facebook:hover {
+  color: #1877f2;
+}
+.logo-whatsapp:hover {
+  color: #25d366;
+}
+.logo-instagram:hover {
+  color: #c32aa3;
 }
