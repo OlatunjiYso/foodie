@@ -48,7 +48,7 @@ $('.logo-black').click(function() {
 // Scroll animation hanlde
 $('.animate-plans-section').waypoint(function() {
   $('.animate-plans-section').addClass('animated fadeInDown');
-}, { offset: '50%' });
+}, { offset: '30%' });
 
 
 
